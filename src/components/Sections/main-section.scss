@@ -1,0 +1,46 @@
+.main-section {
+  width: 45%;
+  flex-direction: column;
+  .title {
+    font-size: 120px;
+    text-align: left;
+    &_red {
+      margin: 0;
+      font-size: 85px;
+      color: #b21414;
+    }
+  }
+  .sublilte {
+    font-size: 30px;
+    text-align: left;
+    font-weight: 400;
+    color: #e0e1e3;
+    margin: 0;
+  }
+  @media (max-width: 768px) {
+    .title {
+      font-size: 85px;
+      &_red {
+        font-size: 55px;
+
+      }
+    }
+    .sublilte {
+      margin-top: 20px;
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .title {
+      font-size: 55px;
+      &_red {
+        font-size: 35px;
+
+      }
+    }
+    .sublilte {
+      margin-top: 20px;
+      font-size: 20px;
+    }
+  }
+}
